@@ -17,7 +17,8 @@
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "Shop"
-      }
+      },
+      "blockClass": "menu-teste"
     }
   },
   "vtex.menu@2.x:menu#institutional": {
