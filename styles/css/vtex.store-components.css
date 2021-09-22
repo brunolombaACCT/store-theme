@@ -13,6 +13,13 @@
   padding: 0px;
 }
 
+.infoCardHeadline--info-card-home {
+  color: #fa284b;
+}
+
+.infoCardCallActionContainer--info-card-home {
+  /* background: #fa284b !important; */
+}
 .newsletter {
   background-color: #03054e;
   max-width: 1528px;

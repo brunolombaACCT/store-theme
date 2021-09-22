@@ -9,8 +9,11 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
+      "info-card#home2",
       "rich-text#question",
       "rich-text#link",
+      "rich-text#hello",
+      "rich-text#teste",
       "newsletter"
     ]
   },
@@ -78,9 +81,27 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+      "headline": "Shining Chrome",
+      "subhead": "subtexto do Info Card!",
+      "callToActionMode": "link",
+      "callToActionText": "Go to Collection",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#home2": {
+    "props": {
+      "id": "info-card-home2",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VTEX_Logo.svg/1200px-VTEX_Logo.svg.png",
+      "headline": "Shining Chrome",
+      "subhead": "subtexto do Info Card!",
+      "callToActionMode": "button",
+      "callToActionText": "Acessar",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
@@ -89,15 +110,31 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**VTEX platform.\nWant to know more?**",
+      "text": "**Hello World**",
       "blockClass": "question"
     }
   },
 
   "rich-text#link": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "text": "**Site**\ngoogle.com",
       "blockClass": "link"
+    }
+  },
+  "rich-text#hello": {
+    "props": {
+      "text": "**Hello World!!!!**",
+      "textPosition": "RIGHT"
+    }
+  },
+  "rich-text#teste": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Visit our [help](https://help.vtex.com/en/faq/what-is-vtex-io) section.\n*Be Bold!*\n**This is italic**",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
     }
   }
 }
