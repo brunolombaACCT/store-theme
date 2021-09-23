@@ -1,0 +1,53 @@
+{
+  "store.custom#about-us2": {
+    "blocks": [
+      "flex-layout.row#about-us2"
+    ]
+  },
+  "flex-layout.row#about-us2": {
+    "children": [
+      "flex-layout.col#imagem",
+      "flex-layout.col#texto"
+    ]
+  },
+  "flex-layout.col#imagem": {
+    "children": [
+      "image#mobile-phone2"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#texto": {
+    "children": [
+      "rich-text#titulo",
+      "rich-text#conteudo"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "classBlock": "coluna-texto"
+    }
+  },
+  "image#mobile-phone2": {
+    "props": {
+      "src": "https://www.havan.com.br/media/catalog/product/cache/73a52df140c4d19dbec2b6c485ea6a50/c/e/celular-smartphone-hit-max-pcs02-6-128gb-philco_328019_1.jpg",
+      "maxHeight": "400px",
+      "maxWidth": "400px",
+      "blockClass": "imagem-phone"
+    }
+  },
+  "rich-text#titulo": {
+    "props": {
+      "text": "## **Sobre nós**\n Testando umas segunda parte do texto.",
+      "classBlock": "italic"
+    }
+  },
+  "rich-text#conteudo": {
+    "props": {
+      "text": "Parágrafo com um conteúdo massa sobre a empresa.\nParágrafo com um conteúdo massa sobre a empresa.\nParágrafo com um conteúdo massa sobre a empresa.\nParágrafo com um conteúdo massa sobre a empresa.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "classBlock": "conteudo-texto"
+    }
+  }
+}
